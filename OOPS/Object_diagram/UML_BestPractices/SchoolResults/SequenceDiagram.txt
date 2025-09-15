@@ -1,0 +1,11 @@
+Sequence Diagram - Grade Calculation
+------------------------------------
+Actors:
+- Student
+- GradeCalculator
+
+Flow:
+1. Student -> GradeCalculator: requestGrade()
+2. GradeCalculator -> Student: getSubjects()
+3. GradeCalculator -> GradeCalculator: calculateGrade()
+4. GradeCalculator -> Student: return Grade ("A")

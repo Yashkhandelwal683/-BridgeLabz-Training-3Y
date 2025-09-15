@@ -1,0 +1,7 @@
+Object Diagram - Snapshot
+--------------------------
+Student: John
+Subjects:
+- Maths: 90
+- Science: 85
+Grade: A

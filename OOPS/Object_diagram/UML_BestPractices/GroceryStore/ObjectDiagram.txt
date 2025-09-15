@@ -1,0 +1,7 @@
+Object Diagram - Snapshot
+--------------------------
+Customer: Alice
+Products:
+- Apples (2 kg @ /kg) = 
+- Milk (1 liter @ /liter) = 
+Total Bill = 

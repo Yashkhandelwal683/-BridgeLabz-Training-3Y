@@ -1,0 +1,11 @@
+Sequence Diagram - Bill Generation
+----------------------------------
+Actors:
+- Customer
+- BillGenerator
+
+Flow:
+1. Customer -> BillGenerator: requestBill()
+2. BillGenerator -> Customer: getProducts()
+3. BillGenerator -> BillGenerator: calculateTotal()
+4. BillGenerator -> Customer: return Total Bill ()

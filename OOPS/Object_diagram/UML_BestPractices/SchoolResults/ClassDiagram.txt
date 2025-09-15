@@ -1,0 +1,20 @@
+Class Diagram - School Results Application
+------------------------------------------
+Classes:
+1. Student
+   - studentId: int
+   - name: String
+   - subjects: List<Subject>
+   + addSubject(subject: Subject)
+   + getSubjects(): List<Subject>
+
+2. Subject
+   - subjectName: String
+   - marks: int
+
+3. GradeCalculator
+   + calculateGrade(student: Student): String
+
+Relationships:
+- Aggregation: Student "has" multiple Subjects
+- Association: GradeCalculator computes results for Student

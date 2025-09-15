@@ -1,0 +1,21 @@
+Class Diagram - Grocery Store Billing
+-------------------------------------
+Classes:
+1. Customer
+   - customerId: int
+   - name: String
+   - products: List<Product>
+   + addProduct(product: Product)
+   + getProducts(): List<Product>
+
+2. Product
+   - productName: String
+   - quantity: double
+   - pricePerUnit: double
+
+3. BillGenerator
+   + generateBill(customer: Customer): double
+
+Relationships:
+- Composition: Customer "owns" Products
+- Association: BillGenerator computes bill for Customer
